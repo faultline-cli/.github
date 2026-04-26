@@ -1,12 +1,37 @@
-## Hi there 👋
+⚡ Faultline
 
-<!--
+Deterministic CI failure analysis.
 
-**Here are some ideas to get you started:**
+Same log in → same result out.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+What we’re building
+
+A CLI-first system for turning CI failures into:
+
+typed classifications
+extracted evidence
+actionable fix steps
+stable JSON for automation
+
+No guesswork. No drift. Fully reproducible.
+
+Why
+
+CI debugging today is:
+
+slow
+noisy
+inconsistent
+
+Faultline makes failures structured, deterministic, and automatable.
+
+Repos
+https://github.com/faultline-cli/faultline
+Direction
+expand real-world failure coverage
+detect silent / misleading failures
+integrate git signals (diff, bisect)
+enable team-level insights
+Principle
+
+If it can’t be reproduced, it can’t be trusted.
