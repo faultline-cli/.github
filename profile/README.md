@@ -27,6 +27,7 @@ Faultline makes failures structured, deterministic, and automatable.
 
 ## Repos
 - https://github.com/faultline-cli/faultline
+- https://github.com/faultline-cli/action
 
 ## Principle
 
